@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!--comando (ALT+SHIFT+F = formata o código)-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biografia Kimetsu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="logo"
+        src="./src/imagens/logo_kimetsu.png"
+        alt="Logo Kimetsu"
+      />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="tanjiro"
+            data-name="Tanjiro Kamado"
+            data-description="Após a morte de sua família  ele se torna um Caçador de Demônios. Com habilidades de espadachim e empatia natural. Sua gentileza e compaixão o destacam, tornando-o um líder respeitado."
+          >
+            <img
+              src="./src/imagens/tanjiro_card.jpg"
+              alt="Personagem Tanjiro Kamado"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="zenitsu"
+            data-name="zenitsu agatsuma"
+            data-description="Ele é um Caçador de Demônios e possui uma personalidade covarde e medrosa, mas quando entra em batalha, desencadeia uma poderosa técnica de respiração que o torna incrivelmente habilidoso."
+          >
+            <img
+              src="./src/imagens/zenitsu_card.jpg"
+              alt="Personagem zenitsu"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="inosuke"
+            data-name="inosuke hashibira"
+            data-description=" ele é um Caçador de Demônios com personalidade selvagem, habilidades excepcionais em combate e uma máscara de javali, é impulsivo e competitivo."
+          >
+            <img
+              src="./src/imagens/inosuke_card.jpg"
+              alt="Personagem Inosuke"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="nezuko"
+            data-name="nezuko kamado"
+            data-description="ela  é irmã de tanjiro e se transforma em um demônio, mas mantém sua bondade e conexão com a humanidade enquanto busca uma cura para sua condição e protege seu irmão dos perigos."
+          >
+            <img
+              src="./src/imagens/nezuko_card.jpg"
+              alt="Personagem nezuko Kamado"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="tomioka"
+            data-name="Tomioka Giyuu"
+            data-description="ele é um Caçador de Demônios frio e reservado, conhecido por sua habilidade excepcional na respiração da água e sua determinação implacável em proteger a humanidade dos demônios."
+          >
+            <img
+              src="./src/imagens/tomioka_card.jpg"
+              alt="Personagem Tomioka"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="uzui"
+            data-name="uzui tengen"
+            data-description="ela é uma Caçadora de Demônios habilidosa, especializada em técnicas de veneno e conhecida por sua personalidade aparentemente alegre, porém vingativa, na luta contra os demônios."
+          >
+            <img
+              src="./src/imagens/uzui_card.jpg"
+              alt="Personagem Tengen Uzui"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="rengoku"
+            data-name="Rengoku Kyojuro"
+            data-description="ele é um Caçador de Demônios corajoso e determinado, conhecido por sua imensa força, lealdade inabalável e espírito de justiça, tornando-se um dos pilares mais respeitados da organização."
+          >
+            <img
+              src="./src/imagens/rengoku_card.jpg"
+              alt="Personagem Kiojuro Rengoku"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="shinobu"
+            data-name="shinobu kocho"
+            data-description="ela é uma Caçadora de Demônios habilidosa, especializada em técnicas de veneno e conhecida por sua personalidade aparentemente alegre, porém vingativa, na luta contra os demônios."
+          >
+            <img
+              src="./src/imagens/shinobu_card.jpg"
+              alt="Personagem Shinobu"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/tanjiro-card.png"
+          alt="personagem selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Tanjiro Kamado</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Após a morte de sua família ele se torna um Caçador de Demônios. Com
+            habilidades de espadachim e empatia natural. Sua gentileza e
+            compaixão o destacam, tornando-o um líder respeitado.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
